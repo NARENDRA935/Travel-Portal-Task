@@ -56,6 +56,12 @@ button:hover{
   transform:scale(1.05);
   transition:0.3s;
 }
+
+#fp{
+    text-align: right;
+    justify-content: right;
+    text-decoration:none;
+}
   </style>
 </head>
 <body>
@@ -64,11 +70,20 @@ button:hover{
     <h2>Travel Portal Login</h2>
 
     <form>
-      <input type="text" placeholder="Enter Your Username">
-      <input type="password" placeholder="Enter Your Password">
-      <button type="submit">Login</button>
-    </form>
+  
+  <input type="text" placeholder="Enter Your Username">
+
+  <input type="password" placeholder="Enter Your Password">
+
+  <!-- Forgot Password -->
+  <div class="forgot-password">
+    <a href="#"><p id="fp">Forgot Password</p></a>
   </div>
-  <!-- forget password -->
+
+  <button type="submit">Login</button>
+
+</form>
+  </div>
+  
 </body>
 </html>
